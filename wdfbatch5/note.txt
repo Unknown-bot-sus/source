@@ -1,0 +1,154 @@
+	14 / 7 / 2021
+Html starts with <html> tag and ends with it.
+Html composes of head, body and foot
+head is from the top up to address bar and chagnes to it are written in <head> tag
+body is the entire document itself and denotes with <body> tag
+
+<title> (block element) change the name tab -must be inside <head>
+There are 6 headers tag starting from h1 to h6 (others will be equvialent to norml txt inside body)
+<h1> ... <h6> (block elemtn) creats a header.  Font size decreases as number besides "h" decreases.
+
+
+	15 / 7 / 2021
+<p > (block element) used to create paragh. Only one whitespace is significant.
+<br /> (self-closing tag) Creates a new line
+
+Get dummy txt from lorem web url https://www.lipsum.com/
+
+<marquee> (block element) creates special effect -takes up the entire line of space.
+	direction: "right" - move from right to left
+	"left" - move from left to right
+	"up" - move from down to up
+	"down" move from up to down
+
+	22 / 7 / 2021
+<center> (block element) center the elements its tag
+
+<hr /> (self-closing tag)  Creates a line
+
+Html tags care for only one white space.
+<pre> (block element) every whie space is significant -pre stands for prearrangement, changes font to tradition typist font.
+
+<del> (block element) renders text with strike-through effect
+Eg.	<b>Discount Noe :</b><del>30 percent OFF</del>
+
+<address> (block element) usually italic the text within its tag. -ulinke <i> which is inline element.
+Eg.	<address>No.50, 75x76 St, Mandalay .Myanmar</address>
+
+<small> (inline element) display with small font -has versatile usage in footing
+
+Two kinds of lists ( Unorder and order lists )
+<ul> (block element) an unorder list
+	type: "circle" set shape of bullet to circle
+	"square" set shape of bullet to square
+
+<ol> (block element) an order list
+	type: "a" a b c
+	"i" i ii iii
+	"A" A B C
+	"I" I II III
+
+<li> (block elelment) list -contains elements of the list
+
+
+
+	list structure
+	<list_type>
+		<li>element</li>
+		<li>element</li>
+		<li>element</li>
+	</list_type>
+
+	23 / 7 / 2021
+<img> (inline elements) display image
+	src: "file/path" search file at the specified location
+	width: "-px" define the width of img based on given px
+	height: "-px" define the height of img based on given px
+
+<table> (block elements) create a border
+<tr> (block elements) create a row
+<td> (block elements) create a column
+<thead><tbody><tfoot> differeniate backend and frontend
+Table structure
+<table>
+	<thead>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+	</tfoot>
+</table>
+
+	29 / 7 / 2021
+<table>
+	border: "1" creates a border around the table and can only used used in table tag.
+	width: "50%" Define width of table
+	height: "50px" Define height of table
+
+<table><thead><tbody><tfoot><tr><td>
+	bgcolor: "silver" change the background color of the cell
+
+<td>
+	colspand: "1" make cell take space corresponding to value given
+
+<a> (line elements)
+	href: "url" -hyper reference links to a url
+				-can be connected locally or globally (https or http)
+		  "tel:num" can call from browser using VoIp server
+
+	target: "_blank" open the link in a new tab.
+			"_self" open the link in opened tab.
+			"_parent" similar to _self
+			"_top" similar to _self
+
+	30 / 7 / 2021
+
+<div> (block element) make division to separate code or group them together.
+
+<span> (inline element) Do not make changes to the element inside the tag
+
+
+	5 / 8 / 2021
+<input />
+	type: "email" -Use to read email.  Only show old used emails.
+		  "plassword" -Used to read password.  Hide the details.
+
+	placeholder: "text" -Used to create watermark(hint in android studio) in the input box.
+
+	value: "text" -Used to prompt data from the database
+
+	minlengpth, maxlength: "integer" limiit the input according to the integer.
+
+	type: "radio" -Use to create radio buttons.
+	{
+	name:  "text" -Use to group radio buttons like in android studio
+	id: "text" -Use to create individual id for radio button
+	}
+		  "hidden" -Hide the input box
+
+	6 / 8 / 2021
+	type: "date" -Use to input date
+		  "time" -Use to input time
+		  "datetime-local" -Use to input date and time
+		  "file" -Use to select file
+
+<form>
+	action:
+	method:
+	enctype: "multiplart/formdata" Encripy the file into multiparts and hidden from hackers
+				Used when there is a file to be read
+				
+
+	12 / 8 / 2021

@@ -1,0 +1,47 @@
+.div1{
+    width: 600px;
+    height: 200px;
+    background-color: orange;
+
+    margin-bottom: 50px;
+}
+
+.div1 .bank{
+    display: block;
+
+    position: absolute;
+    left: 0;
+    margin-left: 300px;
+}
+
+.div1 .money{
+    display: block;
+
+    margin-left: 300px;
+    float: left;
+}
+
+.div1 .coin{
+    margin-left: 600px;
+    position: absolute;
+}
+
+.div2{
+    width: 600px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+}
+
+.div2 .bank{
+    display: block;
+}
+
+.div2 .money{
+    display: block;
+}
+
+.div2 .coin{
+    margin-left: 600px;
+    position: absolute;
+}

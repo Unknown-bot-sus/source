@@ -1,0 +1,21 @@
+nav{
+    width: 1200px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    width: 250px;
+    background-color: green;
+    color: white;
+    text-align: center;
+
+    /*border: 1px solid yellow;*/
+    float: left;
+
+    border-right: 2px solid black;
+
+    line-height: 50px;
+}

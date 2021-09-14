@@ -1,0 +1,51 @@
+@font-face{
+    font-family: 'Stick';
+    src: local('Stick-Regular'), url('../libs/fonts/stick/Stick-Regular.ttf') format('woff');
+}
+
+body{
+    background-image: url('../img/background.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    overflow: hidden;
+}
+
+form a{
+    color: gold;
+}
+
+.stick{
+    font-family: 'Stick', sans-serif;
+    color: yellow;
+    text-align: right;
+    margin-top: 0;
+}
+
+
+fieldset{
+    height: 70vh;
+}
+
+.form{
+    width: 20%;
+    border: 2px dashed white;
+    background-color: rgba(127,127,127,0.8);
+    padding: 5px 0;
+}
+
+.form2{
+    text-align: right;
+    margin-right: 10%;
+}
+
+.text-shadow{
+    text-shadow: -5px -5px 2px black;
+}
+
+.input, .password, .btn{
+    margin-top: 5px;
+}
+

@@ -1,0 +1,39 @@
+h1{
+	color:red;
+}
+
+/*Group Selector(,)*/
+h2,h3,h4{
+	color:red;
+}
+
+/*ID Selector*/
+/*#pray{
+	color:blue;
+}
+
+#myself{
+	color:green;
+}
+
+#japu{
+	color:orange;
+}*/
+
+/*Group Selector*/
+#pray,#japu{
+	color:blue;
+}
+
+.redcolor{
+	color:red;
+	font-size: 20px;
+}
+
+.f20{
+	font-size: 20px;
+}
+
+.abc,.efg{
+	color: orange;
+}
